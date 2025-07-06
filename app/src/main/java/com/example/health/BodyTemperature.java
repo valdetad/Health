@@ -19,7 +19,6 @@ public class BodyTemperature extends AppCompatActivity {
     private static final String ERROR_MSG = "Your temperature is outside the normal range; please visit with your doctor!";
     private static final double ACCEPTABLE_TEMPERATURE = 36;
 
-    //test
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
