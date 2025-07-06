@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_about_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About The Application"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/text_about_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health+ is designed to be your everyday health guide, making it easy and enjoyable to stay on top of your well-being. From reminding you to brush your teeth regularly to offering personalized health tips covering everything from dental care to mental well-being, physical fitness and skincare, this app is all about helping you live your healthiest life. Keep track of your body measurements like body temperature and weight effortlessly, providing you with the information you need to reach your health goals. With its user-friendly interface and practical features, Health+ is here to help you make health an easy part of your daily routine"
+        android:layout_below="@id/text_about_title"
+        android:layout_marginTop="16dp"
+        android:lineSpacingExtra="8dp"
+        android:textSize="16sp"
+        android:gravity="start"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+</RelativeLayout>

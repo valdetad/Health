@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Health+</string>
+    <string name="enter_your_temperature_in_celsius">Enter your temperature in celsius</string>
+    <string name="select">Select Unit</string>
+    <string name="hint_start_typing">Start typing...</string>
+    <string name="enter_temperature_hint" />
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/brushTeethBtn"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:text="Brush Teeth"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/healthTipsBtn"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="Health Tips"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brushTeethBtn" />
+
+    <Button
+        android:id="@+id/bodyMeasurementsBtn"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="Body Measurements"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/healthTipsBtn" />
+
+    <Button
+        android:id="@+id/aboutBtn"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="About"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bodyMeasurementsBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

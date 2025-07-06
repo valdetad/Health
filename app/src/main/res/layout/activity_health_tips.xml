@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".HealthTips">
+
+    <!-- First Accordion -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:minHeight="48dp"
+        android:onClick="toggleAccordion"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="3dp"
+        android:tag="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dental Wellness"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/content1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brush your teeth at least twice a day, in the morning and before bedtime."
+                android:visibility="gone"
+                android:tag="content1" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Second Accordion (Physical Fitness) -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:minHeight="48dp"
+        android:onClick="toggleAccordion"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="3dp"
+        android:tag="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Physical Fitness"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/content2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Staying active can improve your cardiovascular health, strength, and overall well-being."
+                android:visibility="gone"
+                android:tag="content2" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Third Accordion (Mental Health) -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:minHeight="48dp"
+        android:onClick="toggleAccordion"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="3dp"
+        android:tag="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mental Health"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/content3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prioritize your mental well-being. Practice stress-reduction techniques such as mindfulness, meditation, or yoga."
+                android:visibility="gone"
+                android:tag="content3" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Fourth Accordion (Sleep Hygiene) -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:minHeight="48dp"
+        android:onClick="toggleAccordion"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="3dp"
+        android:tag="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/title4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sleep Hygiene"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/content4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aim for 7-9 hours of quality sleep per night. Create a relaxing bedtime routine, keep your sleep environment comfortable and dark, and avoid caffeine and electronic devices before bedtime."
+                android:visibility="gone"
+                android:tag="content4" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Fifth Accordion (Skin Care) -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:minHeight="48dp"
+        android:onClick="toggleAccordion"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="3dp"
+        android:tag="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/title5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skin Care"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/content5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Protect your skin from the sun. Wear sunscreen with an SPF of at least 30, even on cloudy days."
+                android:visibility="gone"
+                android:tag="content5" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
